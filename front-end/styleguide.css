@@ -1,0 +1,55 @@
+:root {
+  --black: #000000;
+  --tangerine: #fb8700;
+  --white: #ffffff;
+
+  --font-size-l: 47px;
+  --font-size-m: 16px;
+  --font-size-s: 15px;
+
+  --font-family-ibm_plex_sans_thai_looped: "IBM Plex Sans Thai Looped",
+    Helvetica;
+}
+.ibmplexsansthailooped-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_sans_thai_looped);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexsansthailooped-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_sans_thai_looped);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexsansthailooped-extra-light-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-ibm_plex_sans_thai_looped);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 200;
+}
+
+.ibmplexsansthailooped-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-ibm_plex_sans_thai_looped);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexsansthailooped-bold-white-47px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_sans_thai_looped);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-white {
+  border: 1px solid var(--white);
+}
