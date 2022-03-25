@@ -1,0 +1,40 @@
+/*CRUD*/
+//Create
+POST /user/
+    "FirstName": 
+    "LastName":
+    "Role"
+
+//Update
+PUT /user/{id}
+    "FirstName": 
+    "LastName":
+    "Role"
+
+//Delete
+DELETE /user/{id}
+
+// Retrieve all
+GET /user/
+
+// Retrieve by id
+GET /user/{id}
+
+/*Front end*/
+// Admin page
+/admin
+
+// Create user
+/create
+
+// Edit user
+/edit
+
+// Delete user
+/delete
+
+// User profile
+/profile/{id}
+
+// Home page
+/home
