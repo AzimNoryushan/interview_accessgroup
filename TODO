@@ -1,4 +1,6 @@
-1. Create Login page
+1. Create Login page*
+    - Login in authenticator methods
 2. Improve UI/UX for home / Create/ Edit/ Profile
 3. Fix profile page not showing properly
-4. Add sentry.io for live alert monitoring
+4. Add sentry.io for live alert monitoring*
+    - https://sentry.io/organizations/gerimbut/projects/volcanic/?project=6300867&statsPeriod=14d

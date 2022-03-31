@@ -28,12 +28,12 @@
               <span class="ibmplexsansthailooped-normal-white-15px">{{ spanText7 }}</span>
             </div>
           </div>
-          <div class="overlap-group7">
+          <div class="overlap-group7" @click="loginPage">
             <div class="login ibmplexsansthailooped-normal-black-15px">
               <span class="ibmplexsansthailooped-normal-black-15px">{{ spanText8 }}</span>
             </div>
           </div>
-          <div class="overlap-group6">
+          <div class="overlap-group6" @click="registerPage">
             <div class="place ibmplexsansthailooped-normal-white-15px">
               <span class="ibmplexsansthailooped-normal-white-15px">{{ spanText9 }}</span>
             </div>
@@ -134,6 +134,14 @@ export default {
     "spanText17",
     "spanText18",
   ],
+  methods: {
+    loginPage() {
+      this.$router.push("/login");
+    },
+    registerPage() {
+      this.$router.push("/register");
+    },
+  },
 };
 </script>
 

@@ -3,6 +3,13 @@ const app = express();
 const cors = require('cors');
 const port = 3000;
 const userRouter = require('./routes/users');
+const sentry = require('@sentry/node');
+const tracing = require('@sentry/tracing');
+
+sentry.init({
+    dsn: "https://ae68bf206bf140a0937a91694503d751@o1102874.ingest.sentry.io/6300867",
+    tracesSampleRate: 1.0,
+});
 
 app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded

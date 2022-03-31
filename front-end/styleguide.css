@@ -53,3 +53,18 @@
 .border-1px-white {
   border: 1px solid var(--white);
 }
+
+/* Login page */
+p {
+  line-height: 1rem;
+}
+
+.card {
+  padding: 20px;
+}
+
+.login-page {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}

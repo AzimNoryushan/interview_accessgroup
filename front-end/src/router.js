@@ -5,6 +5,8 @@ import UserProfile from "./components/UserProfile";
 import CreateUserProfile from "./components/CreateUserProfile";
 import EditUserProfile from "./components/EditUserProfile";
 import Admin from "./components/Admin";
+import Login from "./components/Login";
+import Register from "./components/Register";
 import { desktop1Data } from "./data";
 import { userProfileData } from "./user_data";
 
@@ -37,6 +39,16 @@ export default new Router({
       path: "/edit",
       name: "edit",
       component: EditUserProfile,
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: Login,
+    },
+    {
+      path: "/register",
+      name: "register",
+      component: Register,
     }
   ],
 });
